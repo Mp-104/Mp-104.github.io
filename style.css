@@ -1,0 +1,91 @@
+body {
+    background-color: beige;
+}
+
+
+header {
+    background-color: rgb(245, 192, 132);
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.nav-item {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nike-one {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.nike-two {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.nike-three {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.nike-four {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.nike-five {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.display-products {
+    margin-left: 350px;
+}
+
+div {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 200px 100px 450px;
+    column-gap: 2px;
+}
+
+
+footer {
+    text-align: end;
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button1 {background-color: #00bab1;} /* Blue */
+  .button2 {background-color: #00ff4c;} /* Green */
+
+  a {
+    text-decoration: none;
+  }

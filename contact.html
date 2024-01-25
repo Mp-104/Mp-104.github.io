@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Shoestore</h1>
+      <nav class="nav-menu">
+        <ul class="nav-item">
+          <li class="nav-link">
+            <button class="button button1">
+              <a href="index.html">Homepage</a>
+            </button>
+            <button class="button button2">
+              <a href="aboutus.html">About us</a>
+            </button>
+            <button class="button button1">
+              <a href="products.html">Products</a>
+            </button>
+            <button class="button button2">
+              <a href="contact.html">Contact</a>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Kontakta oss</h2>
+    <form>
+      <fieldset>
+        <legend>Personlig info:</legend>
+        <input type="text" name="name" required placeholder="Namn" />
+        <br /><br />
+        <input type="email" name="email" placeholder="E-post" />
+        <br /><br />
+        <input type="tel" name="phone" placeholder="Telefonnummer" />
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>Kundtyp:</legend>
+        <input
+          type="radio"
+          id="new_customer"
+          name="customer_type"
+          value="New Customer"
+        />
+        <label for="new_customer">Nuvarande Kund</label>
+        <br />
+        <input
+          type="radio"
+          id="potential_customer"
+          name="customer_type"
+          value="Potential Customer"
+        />
+        <label for="potential_customer">Blivande Kund</label>
+      </fieldset>
+
+      <br />
+
+      <p>Välj ditt ärende:</p>
+      <select name="rullist" id="rullist">
+        <option value="first">Klaga</option>
+        <option value="second">Reklamera</option>
+        <option value="third">Polisanmälan</option>
+      </select>
+
+      <br /><br />
+      <textarea
+        name="message"
+        cols="30"
+        rows="10"
+        placeholder="Meddelande"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="Skicka" />
+    </form>
+
+    <p>
+      Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+      <br />
+      ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+      <br />
+      Lorem ipsum Lorem ipsum Lorem ipsum Lorem
+      <br />
+      ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+      <br />
+      <br />
+      Detta är vår integritetspolicy: <br />
+      blablablablabla <br />
+      blablablablabla <br />
+      blablablablabla <br />
+      blablablablabla <br />
+    </p>
+    <input type="radio" name="terms" id="accept" value="accepted" />
+    <label for="accept">Jag godkänner</label>
+    <br />
+    <input type="radio" name="terms" id="deny" value="denied" />
+    <label for="deny">Jag godkänner inte</label>
+    <footer>Copyright &copy; 2024</footer>
+  </body>
+</html>
